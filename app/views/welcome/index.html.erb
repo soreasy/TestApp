@@ -3,7 +3,7 @@
   The time is now: <%= Time.now %>
 </p>
 <ul>
-  <% TestThing.each do |thing| %>
+  <% TestThing.all.each do |thing| %>
     <li><%= thing.sum_attr %> <%= thing.sumOddrAttr %></li>
   <% end %>
 </ul>
