@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+TestThing.create(sum_attr: "bla", sumOddrAttr: "bloop")
+TestThing.create(sum_attr: "blap", sumOddrAttr: "blam")
